@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		946021D92248C12200F7499A /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946021D82248C12200F7499A /* Metal.framework */; };
+		946021DB2248C12700F7499A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946021DA2248C12700F7499A /* CoreVideo.framework */; };
+		946021DD2248C12C00F7499A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946021DC2248C12C00F7499A /* Cocoa.framework */; };
+		946021DF2248C13100F7499A /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946021DE2248C13100F7499A /* CoreAudio.framework */; };
+		946021E12248C14200F7499A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946021E02248C14200F7499A /* IOKit.framework */; };
+		946021E32248C14800F7499A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946021E22248C14700F7499A /* AudioToolbox.framework */; };
+		946021E52248C15200F7499A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946021E42248C15200F7499A /* CoreFoundation.framework */; };
+		946021E72248C15800F7499A /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946021E62248C15800F7499A /* AudioUnit.framework */; };
+		946021E92248C15E00F7499A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946021E82248C15E00F7499A /* Carbon.framework */; };
+		94FBCFB72248D7FE0023CC0D /* yay.c in Sources */ = {isa = PBXBuildFile; fileRef = 94FBCFB62248D7FE0023CC0D /* yay.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		946021C82248BD9E00F7499A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		946021CA2248BD9E00F7499A /* yay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = yay; sourceTree = BUILT_PRODUCTS_DIR; };
+		946021D82248C12200F7499A /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		946021DA2248C12700F7499A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		946021DC2248C12C00F7499A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		946021DE2248C13100F7499A /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		946021E02248C14200F7499A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		946021E22248C14700F7499A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		946021E42248C15200F7499A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		946021E62248C15800F7499A /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		946021E82248C15E00F7499A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		94FBCFB62248D7FE0023CC0D /* yay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yay.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		946021C72248BD9E00F7499A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946021E92248C15E00F7499A /* Carbon.framework in Frameworks */,
+				946021E72248C15800F7499A /* AudioUnit.framework in Frameworks */,
+				946021E52248C15200F7499A /* CoreFoundation.framework in Frameworks */,
+				946021E32248C14800F7499A /* AudioToolbox.framework in Frameworks */,
+				946021E12248C14200F7499A /* IOKit.framework in Frameworks */,
+				946021DF2248C13100F7499A /* CoreAudio.framework in Frameworks */,
+				946021DD2248C12C00F7499A /* Cocoa.framework in Frameworks */,
+				946021DB2248C12700F7499A /* CoreVideo.framework in Frameworks */,
+				946021D92248C12200F7499A /* Metal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		946021C12248BD9E00F7499A = {
+			isa = PBXGroup;
+			children = (
+				946021CC2248BD9E00F7499A /* yay */,
+				946021CB2248BD9E00F7499A /* Products */,
+				946021D72248C12200F7499A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		946021CB2248BD9E00F7499A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				946021CA2248BD9E00F7499A /* yay */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		946021CC2248BD9E00F7499A /* yay */ = {
+			isa = PBXGroup;
+			children = (
+				94FBCFB62248D7FE0023CC0D /* yay.c */,
+			);
+			path = yay;
+			sourceTree = "<group>";
+		};
+		946021D72248C12200F7499A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				946021E82248C15E00F7499A /* Carbon.framework */,
+				946021E62248C15800F7499A /* AudioUnit.framework */,
+				946021E42248C15200F7499A /* CoreFoundation.framework */,
+				946021E22248C14700F7499A /* AudioToolbox.framework */,
+				946021E02248C14200F7499A /* IOKit.framework */,
+				946021DE2248C13100F7499A /* CoreAudio.framework */,
+				946021DC2248C12C00F7499A /* Cocoa.framework */,
+				946021DA2248C12700F7499A /* CoreVideo.framework */,
+				946021D82248C12200F7499A /* Metal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		946021C92248BD9E00F7499A /* yay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946021D12248BD9E00F7499A /* Build configuration list for PBXNativeTarget "yay" */;
+			buildPhases = (
+				946021C62248BD9E00F7499A /* Sources */,
+				946021C72248BD9E00F7499A /* Frameworks */,
+				946021C82248BD9E00F7499A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yay;
+			productName = yay;
+			productReference = 946021CA2248BD9E00F7499A /* yay */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		946021C22248BD9E00F7499A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Cidana Inc.";
+				TargetAttributes = {
+					946021C92248BD9E00F7499A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 946021C52248BD9E00F7499A /* Build configuration list for PBXProject "yay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 946021C12248BD9E00F7499A;
+			productRefGroup = 946021CB2248BD9E00F7499A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				946021C92248BD9E00F7499A /* yay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		946021C62248BD9E00F7499A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FBCFB72248D7FE0023CC0D /* yay.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		946021CF2248BD9E00F7499A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		946021D02248BD9E00F7499A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		946021D22248BD9E00F7499A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CFBUGYZ4Y;
+				HEADER_SEARCH_PATHS = /usr/local/include/SDL2;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = "-D_THREAD_SAFE";
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lSDL2",
+					"-lm",
+					"-liconv",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		946021D32248BD9E00F7499A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CFBUGYZ4Y;
+				HEADER_SEARCH_PATHS = /usr/local/include/SDL2;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lSDL2",
+					"-lm",
+					"-liconv",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		946021C52248BD9E00F7499A /* Build configuration list for PBXProject "yay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946021CF2248BD9E00F7499A /* Debug */,
+				946021D02248BD9E00F7499A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946021D12248BD9E00F7499A /* Build configuration list for PBXNativeTarget "yay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946021D22248BD9E00F7499A /* Debug */,
+				946021D32248BD9E00F7499A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 946021C22248BD9E00F7499A /* Project object */;
+}

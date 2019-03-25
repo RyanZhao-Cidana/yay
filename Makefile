@@ -1,6 +1,6 @@
 OPTFLAGS   = -Wall
-SDL_LIBS   = `sdl-config --static-libs`
-SDL_CFLAGS = `sdl-config --cflags`
+SDL_LIBS   = `sdl2-config --static-libs`
+SDL_CFLAGS = `sdl2-config --cflags`
 CFLAGS     = $(OPTFLAGS)  $(SDL_CFLAGS)
 LDFLAGS    = $(SDL_LIBS) 
 
@@ -11,7 +11,7 @@ OBJ        = $(CSRC:.c=.o)
 default: $(TARGET)
 
 %.o: %.c
-	$(CC) $(CFLAGS)  -c -o $@ $<
+	$(CC) $(CFLAGS)  -g -c -o $@ $<
 
 $(TARGET): $(OBJ)
 	$(CC) -o $@ $(OBJ) $(LDFLAGS)
